@@ -1,0 +1,15 @@
+{
+    "name": "trillo-frontend",
+    "version": "1.0.0",
+    "description": "Frontend project from Udemy course",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass-watch": "sass --watch scss/main.scss css/main.css",
+        "dev": "live-server"
+    },
+    "author": "Jake Godsall",
+    "license": "ISC",
+    "dependencies": {
+        "sass": "^1.62.1"
+    }
+}
