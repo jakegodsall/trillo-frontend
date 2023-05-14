@@ -36,18 +36,36 @@ body {
   min-height: 100vh;
 }
 
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+.user-nav__user-photo {
+  width: 3.75rem;
+  border-radius: 50%;
+}
 .header {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
 }
+.header__logo {
+  height: 3.25rem;
+}
 
 .hotel-view {
+  flex: 1;
   background-color: #fff;
 }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
 }
 
 .container {
